@@ -85,9 +85,9 @@ public class Fenetre extends JFrame{
 		for(;;)
 		{
 			int xRes, yRes;
-			xRes = this.getWidth()-5*5;
+			xRes = this.getWidth()-5*6;
 			xRes/=3.5;
-			yRes = this.getHeight()-5*6-20;
+			yRes = this.getHeight()-5*7-20;
 			yRes/=4.5;
 			this.setBouton(b0, 10+xRes, 25+7*(yRes/2), xRes, yRes);//
 			
